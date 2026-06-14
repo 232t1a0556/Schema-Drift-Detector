@@ -1,0 +1,40 @@
+{
+    "tables": {
+        "orders": [
+            {
+                "name": "id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "user_id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "amount",
+                "type": "INTEGER"
+            },
+            {
+                "name": "status",
+                "type": "VARCHAR"
+            }
+        ],
+        "users": [
+            {
+                "name": "id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "name",
+                "type": "VARCHAR"
+            },
+            {
+                "name": "email",
+                "type": "VARCHAR"
+            },
+            {
+                "name": "created_at",
+                "type": "DATETIME"
+            }
+        ]
+    }
+}
