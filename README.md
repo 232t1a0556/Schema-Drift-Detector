@@ -81,11 +81,47 @@ schema-drift-detector/
 
 ## Workflow
 
-### Step 1: Create Database
+1. **Database Setup**
+   - Create a sample SQLite database.
+   - Create initial tables (`users`, `orders`).
 
-```bash
-python src/db_setup.py
+2. **Schema Snapshot Capture**
+   - Extract the database schema using SQLAlchemy.
+   - Store the schema as `schema_v1.json`.
 
-### Demo Video
-Google drive link:
-https://drive.google.com/file/d/1cITyss0YM53iMhGOMio4xZBzERAuhxo4/view?usp=drivesdk
+3. **Schema Drift Simulation**
+   - Modify the database schema.
+   - Example: Add a new column (`phone`) to the `users` table.
+
+4. **Capture Updated Schema**
+   - Extract the modified schema.
+   - Store it as `schema_v2.json`.
+
+5. **Drift Detection**
+   - Compare `schema_v1.json` and `schema_v2.json`.
+   - Identify:
+     - Added columns
+     - Removed columns
+     - Data type changes
+
+6. **Impact Analysis**
+   - Analyze detected schema changes.
+   - Classify the risk level (Low, Medium, High).
+   - Determine whether changes are breaking or non-breaking.
+
+7. **Report Generation**
+   - Generate a detailed drift report.
+   - Save the report in `outputs/drift_report.md`.
+
+8. **Visualization Dashboard**
+   - Display detected schema drift through a Streamlit web interface.
+   - Show impact analysis and recommendations.
+
+9. **Version Tracking**
+   - Store schema snapshots in GitHub.
+   - Maintain change history for future comparisons.
+
+10. **Future Enhancement**
+    - Integrate LLM APIs (Gemini/Groq/OpenAI) for intelligent impact analysis.
+    - Add email/Slack alerts for detected schema drift.
+    - Schedule automated schema monitoring jobs.
