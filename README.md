@@ -125,3 +125,6 @@ schema-drift-detector/
     - Integrate LLM APIs (Gemini/Groq/OpenAI) for intelligent impact analysis.
     - Add email/Slack alerts for detected schema drift.
     - Schedule automated schema monitoring jobs.
+
+#### Demo Link
+https://www.loom.com/share/e991cec774224f05b48c1885119f6999
