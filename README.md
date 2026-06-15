@@ -1,3 +1,11 @@
+### TEAM NAME : Team 9 (DE-04)
+
+### TEAM MEMBERS:
+1.G.Bhanu Sudeepthi
+2.B.Lahari
+3.M.Venkata Rama Chandana
+4.G.Gowthami
+
 # Schema Drift Detector
 
 ## Overview
@@ -77,3 +85,7 @@ schema-drift-detector/
 
 ```bash
 python src/db_setup.py
+
+### Demo Video
+Google drive link:
+https://drive.google.com/file/d/1cITyss0YM53iMhGOMio4xZBzERAuhxo4/view?usp=drivesdk
