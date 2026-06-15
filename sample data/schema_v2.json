@@ -1,0 +1,38 @@
+{
+    "orders": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "user_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "amount",
+            "type": "REAL"
+        },
+        {
+            "name": "status",
+            "type": "TEXT"
+        }
+    ],
+    "users": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "name",
+            "type": "TEXT"
+        },
+        {
+            "name": "created_at",
+            "type": "TEXT"
+        },
+        {
+            "name": "phone",
+            "type": "TEXT"
+        }
+    ]
+}

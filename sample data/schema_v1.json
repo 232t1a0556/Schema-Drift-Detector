@@ -1,0 +1,8 @@
+{
+  "users": [
+    {"name":"id","type":"INTEGER"},
+    {"name":"name","type":"TEXT"},
+    {"name":"email","type":"TEXT"},
+    {"name":"created_at","type":"TEXT"}
+  ]
+}
