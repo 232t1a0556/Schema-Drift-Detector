@@ -131,4 +131,4 @@ https://www.loom.com/share/e991cec774224f05b48c1885119f6999
 
 Sample Data :- https://github.com/232t1a0556/Schema-Drift-Detector/tree/main/sample%20data
 
-
+Test Cases :- https://github.com/232t1a0556/Schema-Drift-Detector/blob/main/Testcases.md
