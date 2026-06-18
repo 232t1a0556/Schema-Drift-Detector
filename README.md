@@ -132,3 +132,5 @@ https://www.loom.com/share/e991cec774224f05b48c1885119f6999
 Sample Data :- https://github.com/232t1a0556/Schema-Drift-Detector/tree/main/sample%20data
 
 Test Cases :- https://github.com/232t1a0556/Schema-Drift-Detector/blob/main/Testcases.md
+
+Presentation : https://docs.google.com/presentation/d/1psvyyVFX_oFyDLB78vv3YVUerk0jluuD/edit?usp=drivesdk&ouid=101891675777472334727&rtpof=true&sd=true
