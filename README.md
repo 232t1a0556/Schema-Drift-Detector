@@ -134,3 +134,4 @@ Sample Data :- https://github.com/232t1a0556/Schema-Drift-Detector/tree/main/sam
 Test Cases :- https://github.com/232t1a0556/Schema-Drift-Detector/blob/main/Testcases.md
 
 Presentation : https://docs.google.com/presentation/d/1psvyyVFX_oFyDLB78vv3YVUerk0jluuD/edit?usp=drivesdk&ouid=101891675777472334727&rtpof=true&sd=true
+Local URL: http://localhost:8501
